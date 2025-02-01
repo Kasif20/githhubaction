@@ -1,4 +1,4 @@
-name: CI Pipeline
+name:  23f2005661@ds.study.iitm.ac.in
 
 on:
   push:
@@ -9,8 +9,3 @@ concurrency:
   group: "build-${{ github.ref }}"
   cancel-in-progress: true
   
-jobs:
-  test:
-    steps:
-      - name: 23f2005661@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
